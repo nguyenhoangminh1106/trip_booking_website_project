@@ -1,0 +1,114 @@
+*{
+	box-sizing: border-box;
+}
+
+/* Set the background color for the entire page */
+body {
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the forms with a light gray border */
+form {
+    margin-bottom: 20px;
+    padding-right: 30px;
+    
+    display: inline-flex;
+    
+    vertical-align: middle;
+    align-items: center;
+    
+}
+
+
+/* Style the submit buttons */
+input[type="submit"] {
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: inline-block; /* Display buttons inline */
+}
+
+
+/* Style the input fields */
+input[type="number"] {
+    margin: 8px 10px;
+    width: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    margin: 8px 0;
+    width: 200px;
+    margin-right: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style the table cells */
+table, th, td {
+    border: none;
+    text-align: center;
+    align-items: center;
+    
+}
+
+/* Style the table headers */
+th {
+    background-color: lightcoral;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+/* Style the table data */
+td {
+	align-items: center;
+	text-align: center;
+    background-color: white;
+
+    color: black;
+    
+
+}
+
+tr {
+	border: 0.1px solid lightgrey;
+	align-items: center;
+	text-align: center;
+}
+
+table tr th{
+	align-items: center;
+	text-align: center;
+}
+
+td form {
+	align-items: center;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+td form input {
+	margin: 0;
+	font-size: 10px;
+}
